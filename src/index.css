@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* fontface notosanjp */
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("/src/assets/fonts/NotoSansJP/NotoSansJP-Light.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/src/assets/fonts/NotoSansJP/NotoSansJP-Light.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/src/assets/fonts/NotoSansJP/NotoSansJP-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/src/assets/fonts/NotoSansJP/NotoSansJP-Medium.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/src/assets/fonts/NotoSansJP/NotoSansJP-Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/src/assets/fonts/NotoSansJP/NotoSansJP-Black.otf") format("otf");
+}
+/* fontface notosanjp */
+
+/* fontface Inter */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("/src/assets/fonts/Inter/Inter-Thin.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("/src/assets/fonts/Inter/Inter-ExtraLight.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/src/assets/fonts/Inter/Inter-Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/src/assets/fonts/Inter/Inter-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/src/assets/fonts/Inter/Inter-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/src/assets/fonts/Inter/Inter-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/src/assets/fonts/Inter/Inter-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/src/assets/fonts/Inter/Inter-ExtraBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/src/assets/fonts/Inter/Inter-Black.ttf") format("ttf");
+}
